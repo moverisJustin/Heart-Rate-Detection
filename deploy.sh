@@ -1,2 +1,2 @@
-. env/bin/activate
+.venv/bin/activate
 gunicorn -k flask_sockets.worker app:app
